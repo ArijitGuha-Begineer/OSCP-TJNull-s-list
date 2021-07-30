@@ -14,9 +14,10 @@
 10000/tcp open  snet-sensor-mgmt
 ```
 #enumeration 
+
 I tried directory scan with ffuf as well as gobuster but gobuster gave error so I seraches about the error which was x509 invalid certificate and I found a vlog 
 link:https://github.com/OJ/gobuster/issues/129
-and finally ran gobuster with ``-k``
+and finally ran gobuster with ``-k`` to disable certificate checks
 ```
 /help                 (Status: 301) [Size: 308] [--> https://10.10.10.7/help/]
 /images               (Status: 301) [Size: 310] [--> https://10.10.10.7/images/]
