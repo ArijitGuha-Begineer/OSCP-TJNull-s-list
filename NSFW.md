@@ -84,7 +84,7 @@ and then our request got stored in pop with id archi then we get request to it w
 and we have our flag
 So what happens actually is that gunicorn reads the request after xxxxxx in the next request just sent after the first one.
 
-Initially I was getting confuesd with TE CL and serached and read about it a lot.It had nothing to do with this challenge but was worth reading and watching.
+Initially I was getting confused with TE CL and searched and read about it a lot.It had nothing to do with this challenge but was worth reading and watching.
 
 Finally,to end with it was quite a good challenge and I learnt a lot about request smuggling
 (Thanks to Naughtyboy sir for finding the bug report and setting the path for us) 
