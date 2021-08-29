@@ -1,12 +1,11 @@
 ---
-title: NSFW
+Challenge Name: NSFW
 layout: post
-author: Archi
-type: Web
+category: Web
 difficulty: hard
-prompt:
----
 
+---
+challenge website:http://20.198.106.95:22001/
 This was a request smuggling challenge and the exploit was quite new as well.We were given a 
 webapp.py file and the source code of gunicorn:https://bit.ly/3Dq3KTq
 **webapp.py**
