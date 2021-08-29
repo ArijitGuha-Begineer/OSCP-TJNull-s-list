@@ -67,15 +67,23 @@ echo=ggg
 ```
 I was confused with the content-length
 when I sent a request like this
+
 ![](/pic1.png)
+
 it gave 200 response but when we send out get request to pop in the hope that our request was smuggled we got dissappointment but I realised there was problem with 
 content length so changed it to a value such that it it greater than out response
+
 ![](/pic2.png)
+
 and it worked
 we sent a request like this 
+
 ![](/pic3.png)
+
 and then our request got stored in pop with id archi then we get request to it with /pop/archi 
+
 ![](/pic4.png)
+
 and we have our flag
 So what happens actually is that gunicorn reads the request after xxxxxx in the next request just sent after the first one.
 
