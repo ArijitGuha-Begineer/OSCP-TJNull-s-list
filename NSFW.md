@@ -42,7 +42,7 @@ if __name__ == '__main__':
  Initially I thought it was similar to the request smuggling challenge in defcon link:https://ctftime.org/writeup/20655 where they were exploiting the TE.CL scenerio 
  but it wes not working here and I was not aware of the reason.But reading about the TE.CL I realised that the backend and frontend were not confused in this scenerio.
  
- In the source code of gunicorn I found a special header SEC-WEBSOCKET-KEY1 and seraching about it I found a bug which was quite recent and worth the try.
+ In the source code of gunicorn I found a special header SEC-WEBSOCKET-KEY1 and searching about it I found a bug which was quite recent and worth the try.
  **https://grenfeldt.dev/2021/04/01/gunicorn-20.0.4-request-smuggling**
  
  The vulnerability in this gunicorn lied in the function set_body_reader.Due to the header SEC-WEBSOCKET-KEY1 any incoming request to gunicorn it by default taken to be 
