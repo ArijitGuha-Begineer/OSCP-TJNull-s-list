@@ -46,7 +46,7 @@ if __name__ == '__main__':
  **https://grenfeldt.dev/2021/04/01/gunicorn-20.0.4-request-smuggling**
  
  The vulnerability in this gunicorn lied in the function set_body_reader.Due to the header SEC-WEBSOCKET-KEY1 any incoming request to gunicorn it by default taken to be 
- 8 irrespective of content header.So,if the gunicorn is placed behind the proxy and they interact then it is possible that we smuggle request.Now,the proxy in this case was nginx.
+ 8(echo=ggg in this case) irrespective of content header.So,if the gunicorn is placed behind the proxy and they interact then it is possible that we smuggle request.Now,the proxy in this case was nginx.
  
  Now the request will look like something like this but was confused with the content length.
  ```
