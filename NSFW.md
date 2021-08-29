@@ -1,9 +1,7 @@
 ---
 Challenge Name: NSFW
-layout: post
 category: Web
-difficulty: hard
-
+difficulty: hard(points:400)
 ---
 challenge website:http://20.198.106.95:22001/
 This was a request smuggling challenge and the exploit was quite new as well.We were given a 
