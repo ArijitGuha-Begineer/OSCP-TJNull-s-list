@@ -4,7 +4,7 @@ Category: Forensics
 Difficulty: Medium
 ---
 
-This challenge was a continuation from Tampered.
+This challenge was a continuation of Tampered.
 
 **Challenge Description**
 ```
@@ -15,7 +15,7 @@ and figure out what was he doing on the remote computer.
 Note : Challenge File is same as Tampered Challenge.
 ```
 
-So, after doing autopsy we had got wo software Anydesk and teamviewer.But in the files of these we had nothing useful.
+So, after doing autopsy we had got two software Anydesk and teamviewer.But in the files of these we had nothing useful.
 Anydesk had a private key  and an ip but it was a rabbit hole.
 
 So, I searched for RDP cache and found a blog 
