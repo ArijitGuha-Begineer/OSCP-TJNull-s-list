@@ -1,7 +1,7 @@
 ---
 Challenge Name: Tampered
-category: Forensics
-difficulty:medium
+Category: Forensics
+Difficulty: Medium
 ---
 
 **Challenge Description**
