@@ -1,7 +1,7 @@
 ---
-Challenge Name: Tampered
+Challenge Name: Confession
 Category: Forensics
-Difficulty: Medium
+Difficulty: Medium/Hard
 ---
 
 This challenge was a continuation of Tampered.
